@@ -1,7 +1,18 @@
 # Matplotlib Homework - The Power of Plots
 
+## Observations
+* The study had an almost equal distribution of male (51%) and female mice (49%).
 
-* Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+* The regimens Capomulin and Ramicane are comparable and seem to be the most effective, with the smallest average tumor volume,  lowest standard of deviation, and the lowest errors in the samples as compared to the other regimens. These two regimens also had the most number of samples.
+
+* When using Capomulin:
+    ** The tumor volume decreases over time.
+    ** On average, the tumor sizes are larger in mice that are heavier.
+
+* The results of this study are reliable:
+    ** There is only 1 outlier when looking at the regimens Capomulin, Ramicane, Infubinol, and Ceftamin.
+    ** The correlation coefficient between the average tumor volume and mouse weight is 0.84 when using Capomulin.
+
 
 ## Check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 There were originally 249 mice. Mouse with the Mouse ID: g989 was removed due to duplicate data, leaving 248 mice in the study.
@@ -14,26 +25,24 @@ There were originally 249 mice. Mouse with the Mouse ID: g989 was removed due to
 
 DataFrame.plot()
 
-<img src="images/bar_panda.png" alt="Summary Stats" width="632" height="363">
+<img src="images/bar_panda.png" alt="Summary Stats" width="632" height="293">
 
 pyplot
 
-<img src="images/bar_py.png" alt="Summary Stats" width="632" height="363">
+<img src="images/bar_py.png" alt="Summary Stats" width="632" height="294">
 
 ## Show the distribution of female or male mice in the study.
 
 DataFrame.plot()
 
-<img src="images/pie_panda.png" alt="Summary Stats" width="552" height="363">
+<img src="images/pie_panda.png" alt="Summary Stats" width="552" height="321">
 
 pyplot
 
-<img src="images/pie_py.png" alt="Summary Stats" width="552" height="363">
+<img src="images/pie_py.png" alt="Summary Stats" width="552" height="316">
 
 
-##  The Final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. 
-
-Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+##  Capomulin, Ramicane, Infubinol, and Ceftamin quartiles and IQR and outlier information.
 
 * The interquartile range of Tumor Volume for Capomulin is: 7.781863460000004
 * The values below 20.70456164999999 could be outlier for Capomulin
@@ -48,25 +57,25 @@ Calculate the quartiles and IQR and quantitatively determine if there are any po
 * The values below 25.355449580000002 could be outlier for Ceftamin
 * The values above 87.66645829999999 could be outlier for Ceftamin
 
-## The final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
+## The tumor volume for all four treatment regimens.
 
-<img src="images/box.png" alt="Summary Stats" width="552" height="363">
+<img src="images/box.png" alt="Summary Stats" width="552" height="307">
 
 ## Treatment with Capomulin  of tumor volume vs. time point for mouse x401.
 
-<img src="images/line.png" alt="Summary Stats" width="552" height="363">
+<img src="images/line.png" alt="Summary Stats" width="552" height="302">
 
 
 ## Treatment with Capomulin of tumor volume vs. mouse weight.
 
-<img src="images/scatter.png" alt="Summary Stats" width="552" height="363">
+<img src="images/scatter.png" alt="Summary Stats" width="552" height="305">
 
 
-## The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. 
+## The correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin treatment. 
 
 The correlation coefficient between the average tumor volume and mouse weight is 0.84.
 
-<img src="images/regression.png" alt="Summary Stats" width="552" height="363">
+<img src="images/regression.png" alt="Summary Stats" width="552" height="305">
 
 
 
