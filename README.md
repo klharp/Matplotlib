@@ -21,7 +21,7 @@ There were originally 249 mice. Mouse with the Mouse ID: g989 was removed due to
 
 <img src="images/summary.png" alt="Summary Stats" width="552" height="363">
 
-## Total number of measurements taken for each treatment regimen.
+## Total number of measurements taken for each treatment regimen
 
 DataFrame.plot()
 
@@ -42,7 +42,7 @@ pyplot
 <img src="images/pie_py.png" alt="Summary Stats" width="552" height="316">
 
 
-##  Capomulin, Ramicane, Infubinol, and Ceftamin quartiles and IQR and outlier information
+##  Capomulin, Ramicane, Infubinol, and Ceftamin quartiles, IQR  and outlier information
 
 * The interquartile range of Tumor Volume for Capomulin is: 7.781863460000004
 * The values below 20.70456164999999 could be outlier for Capomulin
@@ -61,17 +61,17 @@ pyplot
 
 <img src="images/box.png" alt="Summary Stats" width="552" height="307">
 
-## Treatment with Capomulin of tumor volume vs. time point for mouse x401.
+## Treatment with Capomulin of tumor volume vs. time point for mouse x401
 
 <img src="images/line.png" alt="Summary Stats" width="552" height="302">
 
 
-## Treatment with Capomulin of tumor volume vs. mouse weight.
+## Treatment with Capomulin of tumor volume vs. mouse weight
 
 <img src="images/scatter.png" alt="Summary Stats" width="552" height="305">
 
 
-## The correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin treatment.
+## The correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin treatment
 
 The correlation coefficient between the average tumor volume and mouse weight is 0.84.
 
