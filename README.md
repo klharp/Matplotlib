@@ -1,27 +1,27 @@
 # Matplotlib Homework - The Power of Plots
 
 ## Observations
-* The study had an almost equal distribution of male (51%) and female mice (49%).
+* The study had an almost equal distribution of male (51%) and female(49%) mice .
 
 * The regimens Capomulin and Ramicane are comparable and seem to be the most effective, with the smallest average tumor volume,  lowest standard of deviation, and the lowest errors in the samples as compared to the other regimens. These two regimens also had the most number of samples.
 
 * When using Capomulin:
-    ** The tumor volume decreases over time.
-    ** On average, the tumor sizes are larger in mice that are heavier.
+    * The tumor volume decreases over time.
+    * On average, the tumor sizes are larger in mice that are heavier.
 
 * The results of this study are reliable:
-    ** There is only 1 outlier when looking at the regimens Capomulin, Ramicane, Infubinol, and Ceftamin.
-    ** The correlation coefficient between the average tumor volume and mouse weight is 0.84 when using Capomulin.
+    * There is only 1 outlier when looking at the regimens Capomulin, Ramicane, Infubinol, and Ceftamin.
+    * The correlation coefficient between the average tumor volume and mouse weight is 0.84 when using Capomulin.
 
 
-## Check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
+## Duplicate data
 There were originally 249 mice. Mouse with the Mouse ID: g989 was removed due to duplicate data, leaving 248 mice in the study.
 
-## Summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+## Summary statistics for each drug regimen
 
 <img src="images/summary.png" alt="Summary Stats" width="552" height="363">
 
-## Show the total number of measurements taken for each treatment regimen throughout the course of the study.
+## Total number of measurements taken for each treatment regimen.
 
 DataFrame.plot()
 
@@ -31,7 +31,7 @@ pyplot
 
 <img src="images/bar_py.png" alt="Summary Stats" width="632" height="294">
 
-## Show the distribution of female or male mice in the study.
+## Distribution of female or male mice
 
 DataFrame.plot()
 
@@ -42,7 +42,7 @@ pyplot
 <img src="images/pie_py.png" alt="Summary Stats" width="552" height="316">
 
 
-##  Capomulin, Ramicane, Infubinol, and Ceftamin quartiles and IQR and outlier information.
+##  Capomulin, Ramicane, Infubinol, and Ceftamin quartiles and IQR and outlier information
 
 * The interquartile range of Tumor Volume for Capomulin is: 7.781863460000004
 * The values below 20.70456164999999 could be outlier for Capomulin
@@ -57,11 +57,11 @@ pyplot
 * The values below 25.355449580000002 could be outlier for Ceftamin
 * The values above 87.66645829999999 could be outlier for Ceftamin
 
-## The tumor volume for all four treatment regimens.
+## Tumor volume for all four treatment regimens
 
 <img src="images/box.png" alt="Summary Stats" width="552" height="307">
 
-## Treatment with Capomulin  of tumor volume vs. time point for mouse x401.
+## Treatment with Capomulin of tumor volume vs. time point for mouse x401.
 
 <img src="images/line.png" alt="Summary Stats" width="552" height="302">
 
@@ -71,7 +71,7 @@ pyplot
 <img src="images/scatter.png" alt="Summary Stats" width="552" height="305">
 
 
-## The correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin treatment. 
+## The correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin treatment.
 
 The correlation coefficient between the average tumor volume and mouse weight is 0.84.
 
