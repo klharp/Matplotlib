@@ -1,4 +1,15 @@
 # Matplotlib Homework - The Power of Plots
+## Project Overview
+This project focused on telling a story through plotting a provided dataset on tumor growth and drug regime in mice.
+
+Languages and libraries used:
+
+* Pandas
+* Numpy
+* Matplotlib
+* SciPy
+
+---
 
 ## Observations
 * The study had an almost equal distribution of male (51%) and female(49%) mice .
