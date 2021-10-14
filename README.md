@@ -1,4 +1,4 @@
-# Matplotlib Homework - The Power of Plots
+# Matplotlib  - The Power of Plots
 ## Project Overview
 This project focused on telling a story through plotting a provided dataset on tumor growth and drug regime in mice.
 
